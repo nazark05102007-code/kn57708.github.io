@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#searchInput,
+#taskInput,
+#dateInput {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.add-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#addButton {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  background: #fafafa;
+}
+
+.todo-content {
+  flex: 1;
+  cursor: pointer;
+}
+
+.todo-date {
+  display: block;
+  font-size: 13px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.delete-btn {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+mark {
+  background: yellow;
+}
